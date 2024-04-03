@@ -30,10 +30,13 @@ function Nav() {
       <a href='#' className='col-span-3 flex w-fit items-center gap-1'>
         work
       </a>
-      <a href='/resume-julio.pdf' className='col-span-6 w-fit' download>
+      <a href='/resume-julio.pdf' className='col-span-5 w-fit' download>
         resume
       </a>
-      <div className='col-span-3 flex w-fit items-center gap-2 justify-self-end'>
+      <div className='col-span-4 flex w-fit items-center gap-2 justify-self-end'>
+        <a href='https://github.com/juliomerisio/' target='_blank'>
+          GH
+        </a>
         <a href='https://twitter.com/juliomerisio/' target='_blank'>
           TW
         </a>
@@ -83,8 +86,8 @@ function Bento() {
           <div className='relative  h-[324px] overflow-hidden '>
             <a
               aria-label='Recommendations on LinkedIn'
-              href='https://www.linkedin.com/in/juliomerisio/'
-              target='_blank'
+              href='https://www.linkedin.com/in/juliomerisio/details/recommendations/?detailScreenTabIndex=0#:~:text=positive%20energy.%20%0ASecond%2C-,Julio%20excels%20in%20his%20velocity%20and%20speed%20of%20execution.,-I%20knew%20I'
+              target='_blang'
               rel='noopener noreferrer'
             >
               <Image

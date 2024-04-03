@@ -30,7 +30,7 @@ export default function Head() {
       <meta property='og:title' content={title} />
       <meta property='og:type' content='site' />
       <meta property='og:url' content={url} />
-      <meta property='og:image' content={'/icons/share.png'} />
+      <meta property='og:image' content={'/img/og.svg'} />
       <meta property='og:site_name' content={title} />
       <meta property='og:description' content={description} />
 
@@ -48,9 +48,6 @@ export default function Head() {
       <meta name='viewport' content='width=device-width, minimum-scale=1, initial-scale=1.0' />
       <meta name='theme-color' content='#000' />
       <link rel='shortcut icon' href='/icons/apple-touch-icon.png' />
-
-      {/* og image */}
-      <meta property='og:image' content='/img/og.svg' />
 
       {/* 
       Twitter Summary card
