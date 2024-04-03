@@ -49,6 +49,9 @@ export default function Head() {
       <meta name='theme-color' content='#000' />
       <link rel='shortcut icon' href='/icons/apple-touch-icon.png' />
 
+      {/* og image */}
+      <meta property='og:image' content='/img/og.svg' />
+
       {/* 
       Twitter Summary card
         documentation: https://dev.twitter.com/cards/getting-started

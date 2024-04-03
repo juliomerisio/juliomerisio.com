@@ -83,8 +83,8 @@ function Bento() {
           <div className='relative  h-[324px] overflow-hidden '>
             <a
               aria-label='Recommendations on LinkedIn'
-              href='https://www.linkedin.com/in/juliomerisio/details/recommendations/?detailScreenTabIndex=0#:~:text=positive%20energy.%20%0ASecond%2C-,Julio%20excels%20in%20his%20velocity%20and%20speed%20of%20execution.,-I%20knew%20I'
-              target='_blang'
+              href='https://www.linkedin.com/in/juliomerisio/'
+              target='_blank'
               rel='noopener noreferrer'
             >
               <Image
