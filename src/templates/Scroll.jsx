@@ -56,13 +56,15 @@ export default function Scroll({ children }) {
         width: '100%',
         height: '100%',
         top: 0,
-      }}>
+      }}
+    >
       <div
         ref={content}
         style={{
           position: 'relative',
-          minHeight: '200vh',
-        }}>
+          minHeight: '180vh',
+        }}
+      >
         {children}
       </div>
     </div>

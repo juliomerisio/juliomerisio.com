@@ -4,10 +4,10 @@ import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
 import Image from 'next/image'
 
+const Scroll = dynamic(() => import('@/templates/Scroll').then((mod) => mod.default), { ssr: false })
 const Common = dynamic(() => import('@/components/canvas/View').then((mod) => mod.Common), { ssr: false })
 const Quad = dynamic(() => import('@/components/canvas/Examples').then((mod) => mod.Quad), { ssr: false })
 const Cap = dynamic(() => import('@/components/canvas/Examples').then((mod) => mod.Cap), { ssr: false })
-
 const View = dynamic(() => import('@/components/canvas/View').then((mod) => mod.View), {
   ssr: false,
   loading: () => (
@@ -27,17 +27,17 @@ const View = dynamic(() => import('@/components/canvas/View').then((mod) => mod.
 function Nav() {
   return (
     <nav className='grid  grid-cols-12 gap-5 pt-4 text-[12px] uppercase'>
-      <a href='#' className='col-span-3 flex w-fit items-center gap-1'>
+      <a href='#' className='link col-span-3 flex w-fit items-center gap-1'>
         work
       </a>
-      <a href='/resume-julio.pdf' className='col-span-5 w-fit' download>
+      <a href='/resume-julio.pdf' className='link col-span-5 w-fit' download>
         resume
       </a>
       <div className='col-span-4 flex w-fit items-center gap-2 justify-self-end'>
-        <a href='https://github.com/juliomerisio/' target='_blank'>
+        <a href='https://github.com/juliomerisio/' target='_blank' className='link'>
           GH
         </a>
-        <a href='https://twitter.com/juliomerisio/' target='_blank'>
+        <a href='https://twitter.com/juliomerisio/' target='_blank' className='link'>
           TW
         </a>
 
@@ -108,7 +108,7 @@ function Bento() {
 }
 export default function Page() {
   return (
-    <>
+    <Scroll>
       <div className='mx-auto flex flex-col overflow-hidden px-4 pb-6'>
         <Nav />
         <section className='grid h-[90dvh] grid-cols-12 grid-rows-4 gap-5 pt-[10dvh] lg:pt-[20dvh]'>
@@ -128,6 +128,6 @@ export default function Page() {
         </section>
         <Bento />
       </div>
-    </>
+    </Scroll>
   )
 }

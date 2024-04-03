@@ -33,9 +33,10 @@ export default function Head() {
       <meta property='og:image' content={'/img/og.svg'} />
       <meta property='og:site_name' content={title} />
       <meta property='og:description' content={description} />
+      <link rel='icon' type='image/svg+xml' href='/icons/favicon.svg' />
 
       <link rel='apple-touch-icon' href='/icons/apple-touch-icon.png' />
-      <link rel='apple-touch-icon' sizes='16x16' href='/icons/favicon-16x16.png' />
+      <link rel='apple-touch-icon' sizes='16x16' href='/icons/favicon.png' />
       <link rel='apple-touch-icon' sizes='32x32' href='/icons/favicon-32x32.png' />
       <link rel='apple-touch-icon' sizes='180x180' href='/icons/apple-touch-icon.png' />
       <link rel='manifest' href='/manifest.json' />

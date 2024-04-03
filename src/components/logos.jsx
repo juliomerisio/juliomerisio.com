@@ -1,7 +1,7 @@
 export const Trusted = () => {
   return (
     <div className='flex items-baseline gap-4'>
-      <a href='https://contra.com' aria-label='Contra' rel='noopener noreferrer' target='_blank'>
+      <a href='https://contra.com' aria-label='Contra' rel='noopener noreferrer' target='_blank' className='link'>
         <svg width='111' height='21' viewBox='0 0 111 21' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <g clipPath='url(#clip0_227_240)'>
             <path
@@ -25,7 +25,7 @@ export const Trusted = () => {
         </svg>
       </a>
 
-      <a href='https://whop.com' aria-label='Whop' rel='noopener noreferrer' target='_blank'>
+      <a href='https://whop.com' aria-label='Whop' rel='noopener noreferrer' target='_blank' className='link'>
         <svg width='87' height='19' viewBox='0 0 87 19' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <g clipPath='url(#clip0_227_252)'>
             <path
@@ -64,7 +64,13 @@ export const Trusted = () => {
           </defs>
         </svg>
       </a>
-      <a href='https://coinsquare.com' aria-label='Coinsquare' rel='noopener noreferrer' target='_blank'>
+      <a
+        href='https://coinsquare.com'
+        aria-label='Coinsquare'
+        rel='noopener noreferrer'
+        target='_blank'
+        className='link'
+      >
         <svg width='117' height='22' viewBox='0 0 117 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
           <g clipPath='url(#clip0_227_260)'>
             <path
