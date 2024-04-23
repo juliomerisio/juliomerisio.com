@@ -18,6 +18,12 @@
     overflow: hidden;
   }
 }
+
+
+
+html {
+  color-scheme: dark;
+}
 :root {
   --text: #111111;
   --bg: #fff;

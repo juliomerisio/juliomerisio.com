@@ -27,21 +27,19 @@ const View = dynamic(() => import('@/components/canvas/View').then((mod) => mod.
 function Nav() {
   return (
     <nav className='grid  grid-cols-12 gap-5 pt-4 text-[12px] uppercase'>
-      <a href='#' className='link col-span-3 flex w-fit items-center gap-1'>
-        work
-      </a>
-      <a href='/resume-julio.pdf' className='link col-span-5 w-fit' download>
+
+      <a href='/resume-julio.pdf' className='link col-span-8 w-fit' target='_blank'>
         resume
       </a>
-      <div className='col-span-4 flex w-fit items-center gap-2 justify-self-end'>
+      <div className='col-span-4 flex w-fit items-center gap-4 justify-self-end'>
         <a href='https://github.com/juliomerisio/' target='_blank' className='link'>
-          GH
+          GitHub
         </a>
         <a href='https://twitter.com/juliomerisio/' target='_blank' className='link'>
-          TW
+          Twitter
         </a>
 
-        <a href='mailto:contatomerisio@gmail.com'>EMAIL</a>
+        <a className={'link'} href='mailto:contatomerisio@gmail.com'>EMAIL</a>
       </div>
     </nav>
   )
