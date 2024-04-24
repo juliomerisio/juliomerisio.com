@@ -109,7 +109,7 @@ export default function Page() {
     <>
       <div className='mx-auto flex flex-col overflow-hidden px-4 pb-6'>
         <Nav />
-        <section className='grid h-[90dvh] grid-cols-12 grid-rows-4 gap-5 pt-[10dvh] lg:pt-[20dvh]'>
+        <section className='grid h-[93.5dvh] grid-cols-12 grid-rows-4 gap-5 pt-[10dvh] lg:pt-[20dvh]'>
           <div className='col-span-11 row-span-2 grid lg:col-span-9'>
             <h1>Design engineer &mdash; dedication and love for the web.</h1>
           </div>
