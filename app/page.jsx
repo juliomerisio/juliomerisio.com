@@ -111,13 +111,10 @@ export default function Page() {
         <Nav />
         <section className='grid h-[93.5dvh] grid-cols-12 grid-rows-4 gap-5 pt-[10dvh] lg:pt-[20dvh]'>
           <div className='col-span-11 row-span-2 grid lg:col-span-9'>
-            <h1>Design engineer &mdash; dedication and love for the web.</h1>
+            <h1>Julio is a <br/> Design engineer</h1>
           </div>
 
           <div className='col-span-12 row-span-2 flex flex-col justify-between gap-5 self-end pb-6 align-baseline lg:flex-row'>
-            <div className='flex items-end'>
-              <Trusted />
-            </div>
             <div className='flex flex-col'>
               <span>INTERESTS</span>
               <p>MOTION &#8226; WEBGL &#8226; SVG &#8226; WEB STANDARDS</p>
